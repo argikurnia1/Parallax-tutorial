@@ -1,12 +1,11 @@
 import Link from "next/link";
 
-const NavItem = ({ children, href, fontSize, textColor, onClose }) => {
+const NavItem = ({ children, href }) => {
   return (
     <li>
       <Link href={href}>
         <a
-          onClick={onClose}
-          className={`relative flex md:lp-navbar__a font-Titillium-Web font-semibold ${textColor} ${fontSize}`}
+          className={`relative flex md:lp-navbar__a font-Titillium-Web font-semibold text-[#033A39] text-[1.5rem]`}
         >
           {children}
         </a>

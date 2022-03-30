@@ -33,34 +33,10 @@ const Navbar = () => {
         </div>
         <ul className="flex">
           <ul className="hidden md:flex gap-[2rem]">
-            <NavItem
-              href="#about-us"
-              textColor="text-primary-500"
-              fontSize="text-[1.5rem]"
-            >
-              About Us
-            </NavItem>
-            <NavItem
-              href="#clients"
-              textColor="text-primary-500"
-              fontSize="text-[1.5rem]"
-            >
-              Clients
-            </NavItem>
-            <NavItem
-              href="#products"
-              textColor="text-primary-500"
-              fontSize="text-[1.5rem]"
-            >
-              Products
-            </NavItem>
-            <NavItem
-              href="#contact-us"
-              textColor="text-primary-500"
-              fontSize="text-[1.5rem]"
-            >
-              Contact Us
-            </NavItem>
+            <NavItem href="#about-us">About Us</NavItem>
+            <NavItem href="#clients">Clients</NavItem>
+            <NavItem href="#products">Products</NavItem>
+            <NavItem href="#contact-us">Contact Us</NavItem>
           </ul>
           {/* Hamburger Menu for Mobile */}
           <div className="flex md:hidden cursor-pointer">
